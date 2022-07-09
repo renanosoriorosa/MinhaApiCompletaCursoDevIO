@@ -1,0 +1,15 @@
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

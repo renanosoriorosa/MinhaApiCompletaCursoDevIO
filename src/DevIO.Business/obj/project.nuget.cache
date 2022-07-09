@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tpSRK3iXQhTCwvUNJpEIFmGU7KzaSVEd/gHrw7M5YBHXJAaWRpwSQCc2oJS0EYVazXjNTOKGeHe6neS+d+ILGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Renan\\Documents\\Cursos\\DesenvolvedorIO\\WebAPI\\MinhaAPICompleta\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renan\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}

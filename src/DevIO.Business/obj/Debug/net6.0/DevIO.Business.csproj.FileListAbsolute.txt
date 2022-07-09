@@ -1,0 +1,12 @@
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.deps.json
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.pdb
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfo.cs
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\refint\DevIO.Business.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.pdb
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll
