@@ -10,3 +10,5 @@ C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPI
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\refint\DevIO.Business.dll
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.pdb
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.runtimeconfig.json
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.genruntimeconfig.cache

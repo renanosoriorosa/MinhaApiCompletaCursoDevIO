@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Business", "src\DevIO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Data", "src\DevIO.Data\DevIO.Data.csproj", "{216D4F05-BA6F-46DE-ADC1-3D5A3444951F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Api", "DevIO.Api\DevIO.Api.csproj", "{01917E4D-C155-4CC8-BE5E-95AA6F08423C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Api", "src\DevIO.Api\DevIO.Api.csproj", "{60C501FD-CECB-40B9-938C-087072A96EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{216D4F05-BA6F-46DE-ADC1-3D5A3444951F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{216D4F05-BA6F-46DE-ADC1-3D5A3444951F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{216D4F05-BA6F-46DE-ADC1-3D5A3444951F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01917E4D-C155-4CC8-BE5E-95AA6F08423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01917E4D-C155-4CC8-BE5E-95AA6F08423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01917E4D-C155-4CC8-BE5E-95AA6F08423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01917E4D-C155-4CC8-BE5E-95AA6F08423C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C501FD-CECB-40B9-938C-087072A96EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C501FD-CECB-40B9-938C-087072A96EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C501FD-CECB-40B9-938C-087072A96EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C501FD-CECB-40B9-938C-087072A96EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
