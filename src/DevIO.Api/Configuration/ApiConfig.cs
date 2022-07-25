@@ -22,8 +22,6 @@ namespace DevIO.Api.Configuration
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
-
             return app;
         }
     }

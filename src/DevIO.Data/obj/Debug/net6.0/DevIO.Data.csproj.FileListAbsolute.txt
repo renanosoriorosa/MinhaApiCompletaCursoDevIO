@@ -1,4 +1,5 @@
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
@@ -12,6 +13,5 @@ C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPI
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
-C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
-C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
 C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache
+C:\Users\Renan\Documents\Cursos\DesenvolvedorIO\WebAPI\MinhaAPICompleta\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

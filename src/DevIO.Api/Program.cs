@@ -7,11 +7,12 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddDbContext<MeuDbContext>( options =>
+builder.Services.AddDbContext<MeuDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddIdentityConfig(builder.Configuration);
 
 builder.Services.AddAutoMapper(typeof(Program));
 
@@ -29,6 +30,8 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+app.UseAuthorization();
 
 app.UseApiConfig(app.Environment);
 
