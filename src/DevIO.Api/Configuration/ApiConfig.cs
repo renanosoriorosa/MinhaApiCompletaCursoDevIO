@@ -22,6 +22,13 @@ namespace DevIO.Api.Configuration
 
             app.UseHttpsRedirection();
 
+            app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseStaticFiles();
+
             return app;
         }
     }

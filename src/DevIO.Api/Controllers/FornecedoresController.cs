@@ -25,7 +25,7 @@ namespace DevIO.Api.Controllers
             _fornecedorRepository = fornecedorRepository;
             _fornecedorService = fornecedorService;
             _mapper = mapper;
-            enderecoRepository = _enderecoRepository;
+            _enderecoRepository = enderecoRepository;
         }
 
         [HttpGet]
