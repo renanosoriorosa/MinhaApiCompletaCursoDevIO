@@ -9,6 +9,26 @@ namespace DevIO.Api.Configuration
             services.AddControllers()
                 .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); ;
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Development",
+                    builder =>
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+
+
+                options.AddPolicy("Production",
+                    builder =>
+                        builder
+                            .WithMethods("GET")
+                            .WithOrigins("http://desenvolvedor.io")
+                            .SetIsOriginAllowedToAllowWildcardSubdomains()
+                            //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
+                            .AllowAnyHeader());
+            });
+
             return services;
         }
 
@@ -16,8 +36,14 @@ namespace DevIO.Api.Configuration
         {
             if (env.IsDevelopment())
             {
+                app.UseCors("Development");
                 app.UseSwagger();
                 app.UseSwaggerUI();
+            }
+            else
+            {
+                app.UseCors("Production");
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();

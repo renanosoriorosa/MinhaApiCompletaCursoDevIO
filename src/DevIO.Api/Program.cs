@@ -35,10 +35,4 @@ app.UseApiConfig(app.Environment);
 
 app.MapControllers();
 
-app.UseCors(
-    options => options.WithOrigins("*")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-);
-
 app.Run();
