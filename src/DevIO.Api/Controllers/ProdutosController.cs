@@ -18,7 +18,7 @@ namespace DevIO.Api.Controllers
             IProdutoRepository produtoRepository,
             IProdutoService produtoService,
             IMapper mapper,
-            INotificador notificador) : base(notificador)
+            INotificador notificador, IUser user) : base(notificador, user)
         {
             _produtoRepository = produtoRepository; 
             _produtoService = produtoService;   
@@ -28,6 +28,11 @@ namespace DevIO.Api.Controllers
         [HttpGet]
         public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
         {
+            //apenas exemplo
+            //var idUsuarioLogado = User.GetUserId();
+            //var idUsuarioLogado = User.GetUserEmail();
+            //var idUsuarioLogado = UsuarioId;
+
             return _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterProdutosFornecedores());
         }
 
