@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Text.Json.Serialization;
 
 namespace DevIO.Api.Configuration
 {
@@ -8,6 +9,19 @@ namespace DevIO.Api.Configuration
         {
             services.AddControllers()
                 .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); ;
+
+            services.AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;//assume q tem uma versao default
+                options.DefaultApiVersion = new ApiVersion(1,0);//defione a versao default
+                options.ReportApiVersions = true;//serve para informar ao client se a versao q ele ta consumindo é ou n bsoleta
+            });
+
+            services.AddVersionedApiExplorer(options => 
+            {
+                options.GroupNameFormat = "'v'VVV";//define o padrao pra ex: v2.3.1
+                options.SubstituteApiVersionInUrl = true;//serve pra caso n especifique a versao da api, ele joga automaticamente pra versao default
+            });
 
             services.AddCors(options =>
             {

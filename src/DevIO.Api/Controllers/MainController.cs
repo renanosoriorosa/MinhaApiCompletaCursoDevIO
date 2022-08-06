@@ -19,7 +19,8 @@ namespace DevIO.Api.Controllers
             _notificador = notificador;
             AppUser = appUser;
 
-            if (AppUser.IsAuthenticated()) {
+            if (AppUser.IsAuthenticated())
+            {
                 UsuarioId = AppUser.GetUserId();
                 UsuarioAutenticado = true;
             }
@@ -30,11 +31,11 @@ namespace DevIO.Api.Controllers
             return !_notificador.TemNotificacao();
         }
 
-        protected ActionResult CustomResponse(Object result = null)
+        protected ActionResult CustomResponse(object result = null)
         {
             if (OperacaoValida())
             {
-                return Ok( new
+                return Ok(new
                 {
                     success = true,
                     data = result
