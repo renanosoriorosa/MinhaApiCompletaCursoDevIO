@@ -52,7 +52,6 @@ namespace DevIO.Api.Configuration
             {
                 app.UseCors("Development");
                 app.UseSwagger();
-                app.UseSwaggerUI();
             }
             else
             {

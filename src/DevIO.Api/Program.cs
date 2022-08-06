@@ -1,8 +1,8 @@
 using DevIO.Api.Configuration;
 using DevIO.Data.Context;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
-using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +18,9 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddApiConfig();
 
+builder.Services.AddSwaggerConfig();
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.ResolveDependencies();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -28,11 +29,13 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 
 var app = builder.Build();
-
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 // Configure the HTTP request pipeline.
 
 app.UseApiConfig(app.Environment);
 
 app.MapControllers();
+
+app.UseSwaggerConfig(apiVersionDescriptionProvider);
 
 app.Run();
