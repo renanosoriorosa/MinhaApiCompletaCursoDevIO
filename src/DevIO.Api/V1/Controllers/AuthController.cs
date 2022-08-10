@@ -22,16 +22,18 @@ namespace DevIO.Api.V1.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly AppSettings _appSettings;
+        private readonly ILogger _logger;
 
         public AuthController(
             SignInManager<IdentityUser> signInManager,
             UserManager<IdentityUser> userManager,
             IOptions<AppSettings> appSettings,
-            INotificador notificador, IUser user) : base(notificador, user)
+            INotificador notificador, IUser user, ILogger<AuthController> logger) : base(notificador, user)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
+            _logger = logger;
         }
 
         [AllowAnonymous]
@@ -73,8 +75,10 @@ namespace DevIO.Api.V1.Controllers
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
 
             if (result.Succeeded)
+            {
+                _logger.LogInformation("Usuário "+ loginUser.Email + " logado com sucesso");
                 return CustomResponse(await GerarJWT(loginUser.Email));
-
+            }
 
             if (result.IsLockedOut)
             {
