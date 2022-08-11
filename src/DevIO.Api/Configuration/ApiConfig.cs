@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DevIO.Api.Extensions;
+using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 
 namespace DevIO.Api.Configuration
@@ -58,6 +59,8 @@ namespace DevIO.Api.Configuration
                 app.UseCors("Production");
                 app.UseHsts();
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 

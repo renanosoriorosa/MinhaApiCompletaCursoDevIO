@@ -18,6 +18,8 @@ namespace DevIO.Api.V2.Controllers
         [HttpGet]
         public string valor()
         {
+            throw new Exception("error");
+
             _logger.LogTrace("Log de Trace");
             _logger.LogDebug("Log de Debug");
             _logger.LogInformation("Log de Informação");

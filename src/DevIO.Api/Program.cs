@@ -21,6 +21,9 @@ builder.Services.AddApiConfig();
 builder.Services.AddSwaggerConfig();
 
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddLoggingConfig(builder.Configuration);
+
 builder.Services.ResolveDependencies();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -37,5 +40,7 @@ app.UseApiConfig(app.Environment);
 app.MapControllers();
 
 app.UseSwaggerConfig(apiVersionDescriptionProvider);
+
+app.UseLoggingConfiguration();
 
 app.Run();
